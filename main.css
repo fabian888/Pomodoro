@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #EAF2FF 0% 0% no-repeat padding-box;
+    padding-top: 111px;
+  }
+  
+  #app {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    border-radius: 11px;
+    padding: 20px;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+  
+  #time {
+    text-align: center;
+    padding: 20px 0;
+  }
+  #time #value {
+    font-size: 48px;
+    font-weight: bolder;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 300px;
+  }
+  button,
+  input[type="submit"] {
+    border: none;
+    background: transparent linear-gradient(270deg, #8743FF 0%, #4136F1 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 30px #1466CC29;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .task {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .task .completed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .done {
+    display: inline-block;
+    padding: 5px;
+    background-color: #ccc;
+  }
